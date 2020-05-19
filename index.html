@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Adds support for IE 8 and 9 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adds a description for search engines -->
+    <meta name="description" content="I'm a full-stack Software Engineer, passionate about creating amazing experiences through code.">
+
+    <!-- Adds the font to the website -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Adds custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Adds a favicon to the browser tab -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Browser-tab title -->
+    <title>Nahuel Ianni - Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <!-- Site/Page navigation -->
+        <nav>
+            <span class="fas fa-bars menu mobile" onclick="toggleNav()"></span>
+
+            <ul class="nav">
+                <li><a class="nav-link" href="#">HOME</a></li>
+                <li class="mobile">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li><a class="nav-link" href="#clients">CLIENTS</a></li>
+                <li><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                <li><a class="nav-link" href="#contact">CONTACT</a></li>
+                <li class="mobile">
+                    <a class="nav-link" href="assets/docs/Nahuel%20Ianni.pdf" target="_blank" rel="noopener noreferrer">RESUME</a>
+                </li>
+                <li class="bottom-nav mobile">
+                    <a class="nav-link" href="https://github.com/nahuel-ianni" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li class="mobile">
+                    <a class="nav-link" href="https://www.linkedin.com/in/nahuelianni" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </li>
+                <li class="mobile">
+                    <a class="nav-link" href="https://stackoverflow.com/users/3523670/nahuel-ianni" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home section -->
+        <section id="home" class="column left padding">
+            <h1>Your vision,<br>a reality.</h1>
+
+            <p>I'm <span class="name">Nahuel</span>, a full-stack Software Engineer working at <a class="link" href="https://tretton37.com" target="_blank" rel="noopener noreferrer">tretton37</a> in Stockholm, Sweden.</p>
+            <p>I love learning something new every day and creating opportunities for me and those around me through code.</p>
+
+            <ul class="bottom desktop padding social-media">
+                <li><a class="sm-link fab fa-github" href="https://github.com/nahuel-ianni" target="_blank" rel="noopener noreferrer"></a></li>
+                <li><a class="sm-link fab fa-linkedin-in" href="https://www.linkedin.com/in/nahuelianni" target="_blank" rel="noopener noreferrer"></a></li>
+                <li><a class="sm-link fab fa-stack-overflow" href="https://stackoverflow.com/users/3523670/nahuel-ianni" target="_blank" rel="noopener noreferrer"></a></li>
+            </ul>
+
+            <a class="bold desktop resume" href="assets/docs/Nahuel%20Ianni.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="panel right" data-watermark="About">
+            <!-- Features panel -->
+            <div class="column">
+                <img class="cover-img" src="assets/img/portrait.jpg" alt="Nahuel Ianni's portrait">
+
+                <ul class="centered">
+                    <li>
+                        <strong>Professional</strong>
+                        <p>Worked on <span class="bold">Fortune Global 500</span> companies in Switzerland, Sweden and Spain</p>
+                    </li>
+                    <li>
+                        <strong>Adaptable</strong>
+                        <p><span id="years-experience">Multiple</span> years of experience working as a consultant on distributed, multicultural teams</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Features panel -->
+            <div class="column">
+                <ul class="centered">
+                    <li>
+                        <strong>Versatile</strong>
+                        <p>Experience in software engineering and leadership</p>
+                    </li>
+                    <li>
+                        <strong>Skilled</strong>
+                        <p>Bachelor's degree, Computer Science<br>Vast experience with the .NET framework</p>
+                    </li>
+                </ul>
+
+                <img class="cover-img" src="assets/img/workspace.jpg" alt="Personal workspace">
+            </div>
+        </section>
+
+        <!-- Clients section -->
+        <section id="clients" class="column padding panel right" data-watermark="Clients">
+            <h2 class="title">Clients</h2>
+            <p>Their vision. My mission. A reality.</p>
+
+            <ul class="clients">
+                <li class="centered"><a href="https://www.roche.com" target="_blank" rel="noopener noreferrer"><img class="logo" src="assets/img/logos/roche.svg" alt="Roche Group"></a></li>
+                <li class="centered"><a href="https://www.hm.com" target="_blank" rel="noopener noreferrer"><img class="logo-s" src="assets/img/logos/hm.svg" alt="H&amp;M"></a></li>
+                <li class="centered"><a href="https://shop.mango.com" target="_blank" rel="noopener noreferrer"><img class="logo-l" src="assets/img/logos/mango.svg" alt="Mango"></a></li>
+                <li class="centered"><a href="https://www.forcemanager.com" target="_blank" rel="noopener noreferrer"><img class="logo-l" src="assets/img/logos/forcemanager.svg" alt="ForceManager"></a></li>
+                <li class="centered"><a href="https://www.jungheinrich.com/en" target="_blank" rel="noopener noreferrer"><img class="logo-l" src="assets/img/logos/jungheinrich.svg" alt="Jungheinrich"></a></li>
+                <li class="centered"><a href="https://www.deutschebahn.com/en" target="_blank" rel="noopener noreferrer"><img class="logo-s" src="assets/img/logos/deutsche-bahn.svg" alt="Deutsche Bahn"></a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <blockquote>
+                        <p>His performance and commitment were excellent.<br>He was always aware of the needs of the client as well as those of the software development lifecycle.</p>
+                        <footer>— Thomas Meyer, Managing Director at ERNI Consulting</footer>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
+                        <p>Nahuel has high analytical skills and loves overcoming challenges through craftsmanship.<br>His code was always easy to understand and welcomed by our teams.</p>
+                        <footer>— Ivan Peralta, Head of Product and Engineering at ForceManager</footer>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
+                        <p>I placed Nahuel in situations where I felt he was the only one that could have succeeded, and he never let me down.</p>
+                        <footer>— Luis Martin, Product Owner at Roche Diagnostics</footer>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
+                        <p>It has been a privilege to work with you.</p>
+                        <footer>— Jenny Olivestedt, Project Manager at H&amp;M</footer>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
+                        <p>I would recommend him to be a part of any project using Microsoft technologies.</p>
+                        <footer>— Cristian Torras, Development Architect at Roche Diagnostics</footer>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
+                        <p>Nahuel adapted quickly and efficiently to new teams, tasks and responsibilities.</p>
+                        <footer>— Tommy Albinsson, Service Unit Leader at tretton37</footer>
+                    </blockquote>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Portfolio section -->
+        <section id="portfolio" class="column padding panel right" data-watermark="Portfolio">
+            <h2 class="title">Portfolio</h2>
+            <p>Most of my projects are under an <abbr title="Non-Disclosure Agreement">NDA</abbr>.<br>
+            The following are examples of the kind of projects I work on in my spare time.</p>
+
+            <ul class="projects padding">
+                <li class="project">
+                    <img src="assets/img/projects/workshop-intro-to-soft-dev.jpg" alt="Introduction to Software Development via C#">
+                    <article class="overlay">
+                        <h3>Workshops &amp; courses</h3>
+                    </article>
+                </li>
+                <li class="project">
+                    <img src="assets/img/projects/media-player-rt.jpg" alt="Media player app for the Windows 8/8.1 store">
+                    <article class="overlay">
+                        <h3>Mobile applications</h3>
+                    </article>
+                </li>
+                <li class="project">
+                    <img src="assets/img/projects/media-player.jpg" alt="Media player app for the Windows 10 store">
+                    <article class="overlay">
+                        <h3>Web applications</h3>
+                    </article>
+                </li>
+                <li class="project">
+                    <img src="assets/img/projects/tile-map-editor.jpg" alt="Tile-map editor for 2D games built with XNA and Winforms">
+                    <article class="overlay">
+                        <h3>Desktop applications</h3>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="column padding panel right" data-watermark="Contact">
+            <h2 class="title">Contact</h2>
+
+            <!-- <form class="column" action="https://formspree.io/mgenoopn" method="post">
+                <p>Let's talk about <span class="bold">your project</span>.</p>
+
+                <label for="name">Enter your name</label>
+                <input id="name" name="name" type="text" placeholder="Name" required>
+
+                <label for="email">Enter your email address</label>
+                <input id="email" name="email" type="email" placeholder="Email" required>
+
+                <label for="message">Enter your message</label>
+                <textarea id="message" name="message" placeholder="Message" required rows="5"></textarea>
+
+                <input type="submit" value="SEND MESSAGE">
+            </form> -->
+
+            <form class="column" method="get">
+                <p>Let's talk about <span class="bold">your project</span>.</p>
+
+                <label for="name">Enter your name</label>
+                <input id="name" type="text" placeholder="Name" required>
+
+                <label for="email">Enter your email address</label>
+                <input id="email" type="email" placeholder="Email" required>
+
+                <label for="message">Enter your message</label>
+                <textarea id="message" placeholder="Message" required rows="5"></textarea>
+
+                <p class="notification success">Your message was successfully sent.</p>
+                <p class="notification error">Your message could not be sent.<br>Please try again later.</p>
+
+                <input type="submit" value="SEND MESSAGE">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer padding right">
+        <ul class="social-media mobile">
+            <li><a class="sm-link fab fa-github" href="https://github.com/nahuel-ianni" target="_blank" rel="noopener noreferrer"></a></li>
+            <li><a class="sm-link fab fa-linkedin-in" href="https://www.linkedin.com/in/nahuelianni" target="_blank" rel="noopener noreferrer"></a></li>
+            <li><a class="sm-link fab fa-stack-overflow" href="https://stackoverflow.com/users/3523670/nahuel-ianni" target="_blank" rel="noopener noreferrer"></a></li>
+        </ul>
+
+        <p>&copy;&nbsp;<time id="copyright-year">2020</time> Nahuel Ianni</p>
+    </footer>
+
+    <!-- Font Awesome script -->
+    <script src="https://kit.fontawesome.com/f5e777f9eb.js" crossorigin="anonymous"></script>
+
+    <!-- Custom scripts -->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
