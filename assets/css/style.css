@@ -387,6 +387,7 @@ ul {
 }
 
 .project {
+    border: 3px solid var(--layout-color);
     padding: 0;
     position: relative;
 }
