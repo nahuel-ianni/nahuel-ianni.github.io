@@ -232,7 +232,13 @@ ul {
 }
 
 .cover-img {
+    filter: grayscale(1);
     height: 52.5%;
+    transition: filter .5s ease;
+}
+
+.cover-img:hover {
+    filter: none;
 }
 
 .error {
@@ -396,8 +402,13 @@ ul {
     height: 100%;
 }
 
+.project:hover img {
+    filter: blur(.25rem) grayscale(1);
+}
+
 .project img {
     height: 100%;
+    transition: all .75s ease;
 }
 
 .project:nth-child(1) {
