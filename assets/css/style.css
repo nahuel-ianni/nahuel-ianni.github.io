@@ -2,7 +2,7 @@
     Variables
    ------------------------------------------------- */
 
-:root {
+   :root {
     --font-color: #4d4d4d;
 
     --dark-color: #1b2623;
@@ -576,7 +576,7 @@ ul {
         color: var(--dark-high-contrast);
         font-size: 1.25rem;
         margin-left: auto;
-        padding: .675rem 1rem .675rem;
+        padding: .685rem 1rem .685rem;
     }
 
     .menu svg {
