@@ -411,7 +411,7 @@ ul {
 }
 
 .project:hover img {
-    filter: blur(.25rem) grayscale(1);
+    filter: blur(.2rem) grayscale(1);
 }
 
 .project img {
