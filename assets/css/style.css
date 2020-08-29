@@ -73,12 +73,14 @@ a {
 
 blockquote {
     border-left: .35rem solid var(--dark-reduced);
+    display: flex;
+    gap: .5rem;
     margin: .75rem;
     padding: .75rem 1rem;
     quotes: "\201C""\2019";
 }
 
-blockquote:before {
+blockquote span::before {
     color: var(--dark-reduced);
     content: open-quote;
     font-size: 4rem;
