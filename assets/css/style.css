@@ -366,6 +366,9 @@ ul {
     background-color: var(--layout-color);
     bottom: 0;
     color: var(--dark-high-contrast);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 0;
     opacity: .9;
     overflow: hidden;
@@ -558,8 +561,8 @@ ul {
         display: none;
     }
 
-    .footer {	
-        padding-top: 2rem !important;	
+    .footer {
+        padding-top: 2rem !important;
     }
 
     .left {
@@ -581,7 +584,7 @@ ul {
         padding: .685rem 1rem .685rem;
     }
 
-    .menu:hover + .nav {
+    .menu:hover+.nav {
         width: 100%;
     }
 
