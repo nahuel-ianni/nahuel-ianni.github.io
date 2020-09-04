@@ -370,7 +370,7 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     height: 0;
-    opacity: .9;
+    opacity: .975;
     overflow: hidden;
     padding: 0 .3rem;
     position: absolute;
@@ -415,13 +415,8 @@ ul {
     height: 100%;
 }
 
-.project:hover img {
-    filter: blur(.2rem);
-}
-
 .project img {
     height: 100%;
-    transition: filter .75s ease;
 }
 
 .project:nth-child(1) {
