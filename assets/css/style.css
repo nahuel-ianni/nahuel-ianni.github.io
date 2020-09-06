@@ -500,7 +500,8 @@ ul {
     Media queries
    ------------------------------------------------- */
 
-@media (max-width: 1375px), (max-height: 760px) {
+@media (max-width: 1375px),
+(max-height: 760px) {
     :root {
         --space-unit: .5rem;
     }
@@ -522,7 +523,8 @@ ul {
     }
 }
 
-@media (max-width: 975px), (max-height: 680px) {
+@media (max-width: 975px),
+(max-height: 680px) {
     :root {
         --watermark-size: 4.5rem;
         --width: 100%;
@@ -533,8 +535,9 @@ ul {
         height: auto;
     }
 
-    #about[data-watermark]::before {
-        margin-top: 95%;
+    #about .title {
+        border-bottom: .05rem solid currentColor;
+        margin: 3.75rem 0 1rem var(--space-unit);
     }
 
     #home {
